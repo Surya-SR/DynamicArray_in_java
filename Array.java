@@ -17,16 +17,11 @@ public class Array {
             //copy all the existing items
             for (int i = 0; i < count; i++) {
                 newItems[i] = items[i];
-
             }
             //set "items "to the this new array
             items = newItems;
-
-
         }
         items[count++] = item;
-
-
     }
 
     public void removeAt(int index) {
@@ -38,7 +33,6 @@ public class Array {
             items[i] = items[i + 1];
         }
         count--;
-
     }
 
 
